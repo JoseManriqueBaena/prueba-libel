@@ -47,8 +47,8 @@
 
 .swiperContainer {
 	display: flex;
-
 	max-width: 77%;
+	cursor: grab;
 }
 
 .categoryContainer {
@@ -90,6 +90,7 @@
 	color: rgba(255, 255, 255, 0.5);
 	font-size: 36px;
 	transition: all 0.2s ease-out;
+	cursor: pointer;
 }
 
 .arrows:hover {
@@ -102,6 +103,7 @@
 	align-items: center;
 	gap: 6px;
 	color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
 }
 
 .viewAllContainer:hover {
