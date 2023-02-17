@@ -110,6 +110,23 @@ function Carrousel() {
 		}
 	};
 
+	// var swiper2 = new Swiper('.mySwiper', {
+	// 	breakpoints: {
+	// 		640: {
+	// 			slidesPerView: 2,
+	// 			spaceBetween: 20,
+	// 		},
+	// 		768: {
+	// 			slidesPerView: 4,
+	// 			spaceBetween: 40,
+	// 		},
+	// 		1024: {
+	// 			slidesPerView: 5,
+	// 			spaceBetween: 50,
+	// 		},
+	// 	},
+	// });
+
 	return (
 		<>
 			<section>
@@ -143,8 +160,15 @@ function Carrousel() {
 						<div className={style.swiperContainer}>
 							<Swiper
 								spaceBetween={10}
-								slidesPerView={6}
 								onSwiper={(swiper) => setSwiper(swiper)}
+								breakpoints={{
+									1440: {
+										slidesPerView: 6,
+									},
+									1000: {
+										slidesPerView: 5,
+									},
+								}}
 							>
 								{movies.map((movie, i) => (
 									<SwiperSlide id={i}>
