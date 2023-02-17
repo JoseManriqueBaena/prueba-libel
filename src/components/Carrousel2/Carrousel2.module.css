@@ -1,0 +1,123 @@
+.sectionContainer {
+	background-color: #0f131d;
+	height: 400px;
+}
+
+.mainContainer {
+	max-width: 1440px;
+	margin: 24px auto 0px auto;
+}
+
+.tabsContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: fit-content;
+	gap: 24px;
+	right: 50px;
+	margin-bottom: 24px;
+	margin-left: 330px;
+}
+
+.tabsContainer h3 {
+	font-size: 14px;
+}
+
+.tabsContainer h4 {
+	font-size: 10px;
+	color: rgba(255, 255, 255, 0.1);
+}
+
+.desactive {
+	color: rgba(255, 255, 255, 0.3);
+	cursor: pointer;
+}
+
+.active {
+	color: #24baef;
+	cursor: pointer;
+}
+
+.allSwiperContainer {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	gap: 24px;
+}
+
+.swiperContainer {
+	display: flex;
+
+	max-width: 77%;
+}
+
+.categoryContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.categoryContainer h2 {
+	color: white;
+	text-align: start;
+	font-size: 32px;
+	font-weight: 600;
+	margin: 24px 0px 12px 0px;
+}
+
+.hr1 {
+	width: 50px;
+	margin: 0px;
+	border-color: rgba(255, 255, 255, 0.2);
+}
+
+.hr2 {
+	width: 300px;
+	margin: 0px;
+	border-color: rgba(255, 255, 255, 0.2);
+}
+
+.arrowsContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 36px;
+	height: 40px;
+}
+
+.arrows {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 36px;
+	transition: all 0.2s ease-out;
+}
+
+.arrows:hover {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 40px;
+}
+
+.viewAllContainer {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.viewAllContainer:hover {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.viewAllContainer p {
+	font-size: 12px;
+}
+
+.arrowView {
+	font-size: 8px;
+}
+
+.prueba {
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+}

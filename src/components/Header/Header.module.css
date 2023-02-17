@@ -1,0 +1,89 @@
+.mainContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 700px;
+}
+
+.video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.contentContainer {
+	position: absolute;
+	display: flex;
+	align-items: center;
+}
+
+.buttonsContainer {
+	display: flex;
+	gap: 24px;
+}
+
+.buttonPrimary {
+	border: none;
+	border-radius: 5px;
+	width: 180px;
+	height: 60px;
+	background-color: #24baef;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: Montserrat;
+	cursor: pointer;
+}
+
+.buttonPrimary:hover {
+	background-color: #00bbff;
+}
+
+.buttonSecondary {
+	border: 2px solid white;
+	border-radius: 5px;
+	width: 180px;
+	height: 60px;
+	background: none;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: Montserrat;
+	box-shadow: 1px 1px 2px rgb(36, 36, 36);
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
+	cursor: pointer;
+}
+
+.buttonSecondary:hover {
+	background-color: rgba(255, 255, 255, 0.365);
+}
+
+.infoContainer {
+	padding: 24px;
+	width: 50%;
+	color: white;
+	text-align: start;
+}
+
+.infoContainer h1 {
+	font-size: 50px;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.infoContainer p {
+	font-size: 16px;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.playContainer {
+	width: 50%;
+}
+
+.imgPlayButton {
+	height: 180px;
+	cursor: pointer;
+}
+
+.videoPlay {
+	opacity: 0.1;
+}
