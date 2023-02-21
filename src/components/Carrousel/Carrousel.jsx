@@ -71,6 +71,7 @@ function Carrousel() {
 		},
 	]);
 	const [swiper, setSwiper] = useState();
+	console.log(swiper);
 
 	const handlerClick = (event) => {
 		const name = event.target.title;
@@ -109,23 +110,6 @@ function Carrousel() {
 			);
 		}
 	};
-
-	// var swiper2 = new Swiper('.mySwiper', {
-	// 	breakpoints: {
-	// 		640: {
-	// 			slidesPerView: 2,
-	// 			spaceBetween: 20,
-	// 		},
-	// 		768: {
-	// 			slidesPerView: 4,
-	// 			spaceBetween: 40,
-	// 		},
-	// 		1024: {
-	// 			slidesPerView: 5,
-	// 			spaceBetween: 50,
-	// 		},
-	// 	},
-	// });
 
 	return (
 		<>
